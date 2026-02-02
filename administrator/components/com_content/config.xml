@@ -1059,7 +1059,17 @@
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
-
+			<field
+				name="date_feed_type"
+				type="list"
+				label="JGLOBAL_SHOW_DATE_LABEL"
+				showon="show_feed_link:1"
+				default="1"
+				>
+				<option value="0">JGLOBAL_CREATED</option>
+				<option value="1">JPUBLISHED</option>
+				<option value="2">JGLOBAL_MODIFIED</option>
+			</field>
 			<field
 				name="feed_summary"
 				type="list"
