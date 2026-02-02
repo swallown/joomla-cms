@@ -12,13 +12,16 @@ namespace Joomla\Component\Content\Site\View\Featured;
 
 use Joomla\CMS\Categories\Categories;
 use Joomla\CMS\Document\Feed\FeedItem;
+use Joomla\CMS\Document\Feed\FeedEnclosure;
+use Joomla\CMS\Document\Feed\FeedView as BaseFeedView;
 use Joomla\CMS\Factory;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\View\AbstractView;
 use Joomla\CMS\Router\Route;
 use Joomla\Component\Content\Site\Helper\RouteHelper;
-use Joomla\Component\Content\Site\Model\FeaturedModel;
+use Joomla\CMS\Uri\Uri;
+
 
 // phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;
