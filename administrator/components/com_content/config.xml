@@ -27,7 +27,16 @@
 			<option value="0">JHIDE</option>
 			<option value="1">JSHOW</option>
 		</field>
-
+		<field
+			name="date_feed_type"
+			type="list"
+			label="JGLOBAL_SHOW_DATE_LABEL"
+			default="1"
+			>
+			<option value="0">JGLOBAL_CREATED</option>
+			<option value="1">JPUBLISHED</option>
+			<option value="2">JGLOBAL_MODIFIED</option>
+		</field>
 		<field
 			name="link_titles"
 			type="radio"
